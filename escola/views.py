@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 from escola.models import Aluno, Curso
-from serializer import AlunosSerializer, CursosSerializer
+from escola.serializer import AlunosSerializer, CursosSerializer
 
 class AlunosViewSet(viewsets.ModelViewSet):
     """Exibindo alunos"""
